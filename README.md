@@ -7,7 +7,7 @@ This repository contains the documentation, code, and resources for our particip
 - **Team Name**: RayBot 2030
 - **Team Members**:
   - AlJawharah AlQahtani 
-  - Aseel AlJaser 
+  - Aseel AlJaseer 
  
 - **Coach**: Eng. Khalid Ghubaish
 
