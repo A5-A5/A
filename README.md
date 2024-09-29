@@ -64,11 +64,6 @@ Our vehicle is designed using Raspberry Pi 5, along with various sensors and mot
 2. **Second Commit**: Full vehicle functionality with obstacle avoidance (1 month before competition).
 3. **Final Commit**: Finalized code with optimizations (2 weeks before competition).
 
-## Performance Videos
-- **Open Challenge Performance**: [YouTube Link to performance video]
-- **Obstacle Challenge Performance**: [YouTube Link to obstacle challenge video]
-
-
 
 ## CAD/3D Models (if applicable)
 - **Chassis Design**: [Link to CAD/3D model files, e.g., STL or CAD files]
