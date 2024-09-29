@@ -9,7 +9,7 @@ This repository contains the documentation, code, and resources for our particip
   - AlJawharah AlQahtani 
   - Aseel AlJaser 
  
-- **Coach**: Eng. Khalid Hussain Ghubaish
+- **Coach**: Eng. Khalid Ghubaish
 
 ## Vehicle Overview
 Our vehicle is designed using Raspberry Pi 5, along with various sensors and motors to autonomously complete the challenge tasks.
@@ -29,22 +29,14 @@ Our vehicle is designed using Raspberry Pi 5, along with various sensors and mot
 
 ### 4. Power Management
 - **Power Supply**: Lipo Battery 7.4V 2200mAh. 
-
-## Getting Started
-
-### Hardware Setup
-1. **Required Components**:
-   - [Component 1]
-   - [Component 2]
-   - [Component 3]
-
   
-2. **Wiring Diagram**: [Include a link to the wiring diagram or upload it to this repo].
-3. **Assembly Instructions**: [Provide detailed steps to assemble the vehicle, including CAD files if applicable].
+3. **Wiring Diagram**: [Include a link to the wiring diagram or upload it to this repo].
+4. **Assembly Instructions**: [Provide detailed steps to assemble the vehicle, including CAD files if applicable].
 
 ### Software Setup
 1. **Dependencies**:
    - [List any dependencies or libraries, e.g., OpenCV, RPi.GPIO]
+     
 2. **Installation**:
    ```bash
    # Clone the repository
@@ -58,18 +50,3 @@ Our vehicle is designed using Raspberry Pi 5, along with various sensors and mot
    # Example to run the code on Raspberry Pi
    python3 main.py
    ```
-
-## Commit Timeline
-1. **First Commit**: Initial code for basic vehicle movement and sensor setup (2 months before competition).
-2. **Second Commit**: Full vehicle functionality with obstacle avoidance (1 month before competition).
-3. **Final Commit**: Finalized code with optimizations (2 weeks before competition).
-
-
-## GitHub Repository Documentation
-Our progress and code updates are tracked using GitHub. You can explore the following:
-- **Code**: [Link to code files or relevant folders].
-- **Commits**: Regular updates are documented with clear commit messages.
-- **Engineering Documentation**: The README and other files in this repository provide details on the development and design process.
-
-## License
-This project is licensed under the [Your License] License. See the [LICENSE.md](LICENSE.md) file for details.
