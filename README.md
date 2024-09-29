@@ -12,25 +12,23 @@ This repository contains the documentation, code, and resources for our particip
 - **Coach**: Eng. Khalid Hussain Ghubaish
 
 ## Vehicle Overview
-Our vehicle is designed using [Raspberry Pi 5, along with various sensors and motors to autonomously complete the challenge tasks.
+Our vehicle is designed using Raspberry Pi 5, along with various sensors and motors to autonomously complete the challenge tasks.
 
 ## Technical Approach
 
 ### 1. Mobility
-- **Motor Type**: one DC Motor for forward-movements.
-- **Steering Mechanism**: one Servo-Motor.
+- **Motor Type**: One DC Motor for forward-movements.
+- **Steering Mechanism**: One Servo-Motor.
 
 ### 2. Sensors
-- **Sensors Used**: Rpi-Camera Module 3, LiDAR, Whole Sensor, Battery Monitor 
-- **Functionality**: [Explain what each sensor does and how it helps the vehicle complete its tasks].
-
-### 3. Obstacle Avoidance Strategy
-- **Obstacle Detection**: [Explain how your vehicle detects and responds to obstacles].
-- **Control Logic**: [Describe the logic or algorithm used to avoid obstacles, including pseudo code or flowcharts if available].
+- **Sensors Used**: Rpi-Camera Module 3, LiDAR, Whole Sensor, Battery Monitor, USB to TTL converter, Compas.
+- **Functionality**:
+  Rpi-Camera Module 3: We used the camera to detect colors.
+  LiDAR: We used the LiDAR to avoid obsticals.
+  Whole Sensor: We used the whole sensor to mesure distance.
 
 ### 4. Power Management
-- **Power Supply**: [Describe the battery system, voltage, and how power is distributed].
-- **Energy Efficiency**: [Mention any methods implemented to optimize power consumption].
+- **Power Supply**: Lipo Battery 7.4V 2200mAh. 
 
 ## Getting Started
 
@@ -39,6 +37,8 @@ Our vehicle is designed using [Raspberry Pi 5, along with various sensors and mo
    - [Component 1]
    - [Component 2]
    - [Component 3]
+
+  
 2. **Wiring Diagram**: [Include a link to the wiring diagram or upload it to this repo].
 3. **Assembly Instructions**: [Provide detailed steps to assemble the vehicle, including CAD files if applicable].
 
@@ -68,11 +68,7 @@ Our vehicle is designed using [Raspberry Pi 5, along with various sensors and mo
 - **Open Challenge Performance**: [YouTube Link to performance video]
 - **Obstacle Challenge Performance**: [YouTube Link to obstacle challenge video]
 
-## Photos
-- **Team Photo**: ![Team Photo](link_to_photo)
-- **Vehicle Photos**: 
-  - ![Vehicle Top View](link_to_photo)
-  - ![Vehicle Side View](link_to_photo)
+
 
 ## CAD/3D Models (if applicable)
 - **Chassis Design**: [Link to CAD/3D model files, e.g., STL or CAD files]
