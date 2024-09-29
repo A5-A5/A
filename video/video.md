@@ -1,1 +1,3 @@
-https://www.youtube.com/watch?v=J5yrJuZZ5P8
+## Performance Videos
+- **Open Challenge Performance**: [YouTube Link to performance video]
+- **Obstacle Challenge Performance**: [YouTube Link to obstacle challenge video]
