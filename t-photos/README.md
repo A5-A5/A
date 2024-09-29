@@ -1,4 +1,5 @@
-Team's photos
-====
-
-This directory must contain 2 photos of the team (an official one and one funny photo with all team members)
+## Photos
+- **Team Photo**: ![Team Photo](link_to_photo)
+- **Vehicle Photos**: 
+  - ![Vehicle Top View](link_to_photo)
+  - ![Vehicle Side View](link_to_photo)
