@@ -1,4 +1,5 @@
-Vehicle's photos
-====
-
-This directory must contain 6 photos of the vehicle (from every side, from top and bottom)
+## Photos
+- **Team Photo**: ![Team Photo](link_to_photo)
+- **Vehicle Photos**: 
+  - ![Vehicle Top View](link_to_photo)
+  - ![Vehicle Side View](link_to_photo)
