@@ -65,9 +65,6 @@ Our vehicle is designed using Raspberry Pi 5, along with various sensors and mot
 3. **Final Commit**: Finalized code with optimizations (2 weeks before competition).
 
 
-## CAD/3D Models (if applicable)
-- **Chassis Design**: [Link to CAD/3D model files, e.g., STL or CAD files]
-
 ## GitHub Repository Documentation
 Our progress and code updates are tracked using GitHub. You can explore the following:
 - **Code**: [Link to code files or relevant folders].
