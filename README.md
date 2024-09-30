@@ -9,7 +9,7 @@ This repository contains the documentation, code, and resources for our particip
   - AlJawharah AlQahtani 
   - Aseel AlJaseer 
  
-- **Coach**: Eng. Khalid Ghubaish
+- **Coach**: Elaf Abunayyan
 
 ## Vehicle Overview
 Our vehicle is designed using Raspberry Pi 5, along with various sensors and motors to autonomously complete the challenge tasks.
