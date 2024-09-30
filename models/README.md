@@ -1,23 +1,5 @@
-# Electromechanical Diagrams
+# 3D Designs for Raspberry Pi Camera Stand
 
-## CAD/3D Models
+This folder contains 3D designs for a Raspberry Pi camera stand, which is an essential part of the robot's structure.
 
-### Chassis Design: 
-This directory contains 3D design files for a Raspberry Pi camera stand. The following files are included:
-
-- **Camera Back Cover**:
-  - `camera_back_cover_v002.f3d` (F3D File)
-  - `camera_back_cover_v002.igs` (IGS File)
-  - `camera_back_cover_v002.stl` (STL File)
-
-- **Camera Front Box**:
-  - `camera_front_box_v003.f3d` (F3D File)
-  - `camera_front_box_v003.igs` (IGS File)
-  - `camera_front_box_v003.stl` (STL File)
-
-- **Camera Stand**:
-  - `camera_stand_v001.f3d` (F3D File)
-  - `camera_stand_v001.igs` (IGS File)
-  - `camera_stand_v001.stl` (STL File)
-
-
+The available files include different formats (*F3D*, *IGS*, *STL*), making it easy to use the designs for 3D modeling, 3D printing, or modification according to project needs. These designs are crucial for enhancing the robot's vision accuracy and efficiency in performing designated tasks. We hope this work contributes to fostering innovation in the field of robotics and achieving outstanding results in competitions.
