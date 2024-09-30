@@ -11,7 +11,7 @@
 ---
 
 *Sometimes, competition needs a touch of humor! 😂*  
-![Team Photo](https://github.com/user-attachments/assets/65cbca37-3233-4f3e-94f9-490a904cae29)
+![Team Photo](https://github.com/user-attachments/assets/900f795a-8a7e-4404-aee3-7fa1ff4f0964)
 
 ---
 
