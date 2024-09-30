@@ -1,7 +1,21 @@
 ## Team Photos
-**Here we see AlJawharah AlQahtani and Aseel AlJaseer, together as one team, collaborating and challenging ourselves to achieve our goals!**
--  ![Team Photo](link_to_photo)
-- **Sometimes, competition needs a touch of humor! 😂**
--  ![Team Photo](link_to_photo)
- 
+
+*Here we present our team members:*
+
+- **AlJawharah AlQahtani**  
+  ![AlJawharah Photo](link_to_photo)
+
+- **Aseel AlJaseer**  
+  ![Aseel Photo](link_to_photo)
+
+---
+
+*Sometimes, competition needs a touch of humor! 😂*  
+![Team Photo](link_to_photo)
+
+---
+
+This is our dedicated team, working together towards achieving our shared goals.
+
+
 
