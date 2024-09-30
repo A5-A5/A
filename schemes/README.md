@@ -4,3 +4,5 @@
 
 **Wiring Diagram**:  
 [![Wiring Diagram](https://drive.google.com/uc?id=1sE2XPslHL6wj4SeEzqFB85HH2IpVUXp9)](https://drive.google.com/file/d/1sE2XPslHL6wj4SeEzqFB85HH2IpVUXp9/view?usp=sharing)
+
+https://github.com/user-attachments/assets/ff895cd7-d2c1-455e-a324-87dd837415e5
