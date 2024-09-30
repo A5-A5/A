@@ -1,6 +1,31 @@
-Control software
-====
+# Autonomous Robot Control Code
 
-This directory must contain code for control software which is used by the vehicle to participate in the competition and which was developed by the participants.
+This repository contains the code for operating an autonomous robot equipped with a LIDAR sensor and a Raspberry Pi camera. The code integrates motor control, LIDAR scanning, obstacle detection, and rotation functionalities.
 
-All artifacts required to resolve dependencies and build the project must be included in this directory as well.
+## Requirements
+- Python 3.x
+- Libraries:
+  - gpiozero
+  - matplotlib
+  - ydlidar
+- Hardware:
+  - Raspberry Pi
+  - YDLIDAR
+  - Servo motor
+  - Hall sensor
+
+## Code Overview
+The main components of the code are:
+
+- **Library Imports:** Necessary libraries for hardware interaction and data processing.
+- **LIDAR Settings:** Functions to initialize the LIDAR and plot the scan data.
+- **Motor and Servo Settings:** Control mechanisms for the robot's movement.
+- **Obstacle Avoidance:** Functions to detect obstacles using LIDAR and adjust the robot's path accordingly.
+- **Control Loop:** The main loop that manages LIDAR scanning, motor movement, and rotation for navigating obstacles.
+
+## Usage
+
+1. Ensure all hardware is connected properly.
+2. Run the main script using Python:
+   ```bash
+   python main.py
