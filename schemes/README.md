@@ -1,4 +1,7 @@
-Electromechanical diagrams
-====
+## Electromechanical Diagrams
 
-This directory must contain one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+- *Wiring Diagram*: A detailed wiring diagram has been prepared, showing how the battery, sensors, motors, and the Raspberry Pi are interconnected.
+
+**Wiring Diagram Image:**
+  ![Wiring Diagram](https://drive.google.com/uc?export=view&id=1sE2XPslHL6wj4SeEzqFB85HH2IpVUXp9)
+
