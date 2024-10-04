@@ -33,9 +33,6 @@ Our vehicle is designed using Raspberry Pi 5, along with various sensors and mot
 3. **Wiring Diagram**: [Include a link to the wiring diagram or upload it to this repo].
 4. **Assembly Instructions**: [Provide detailed steps to assemble the vehicle, including CAD files if applicable].
 
-### Software Setup
-1. **Dependencies**:
-   - [List any dependencies or libraries, e.g., OpenCV, RPi.GPIO]
      
 2. **Installation**:
    ```bash
