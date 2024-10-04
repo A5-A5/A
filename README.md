@@ -37,7 +37,7 @@ Our vehicle is designed using Raspberry Pi 5, along with various sensors and mot
 2. **Installation**:
    ```bash
    # Clone the repository
-   git clone [repository link]
+   git clone https://github.com/RayBot-2030/WRO-2024-RayBot.git
 
    # Install dependencies
    pip install -r requirements.txt
