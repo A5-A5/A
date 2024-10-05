@@ -1,10 +1,7 @@
-# WRO 2024 Future Engineers Project
 
-## Project Overview
-This repository contains the documentation, code, and resources for our participation in the **WRO 2024 Future Engineers** challenge. Our goal is to build an autonomous vehicle capable of navigating a track, avoiding obstacles, and performing parallel parking.
 
 ## Team Information
-- **Team Name**: RayBot 2030
+
 - **Team Members**:
   - AlJawharah AlQahtani: A driven innovator with a passion for robotics and engineering.
   - Aseel AlJaseer: A creative thinker who excels in problem-solving and team collaboration.
