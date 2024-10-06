@@ -11,7 +11,37 @@ a passionate team of high school students, including **AlJawharah AlQahtani** an
 Our mission is to build a solid foundation of knowledge that prepares us to drive technological advancements and inspire future generations.
 
 ---
+# Robot Strategy in Game Field
 
+## Balance and Navigation Control
+When the game starts, the robot uses the *balance sensor (Gyro)* to reset and maintain its balance while moving forward or turning right or left. The *RP Lidar*, installed at the front of the robot, helps prevent collisions with walls or columns.
+
+- If the Lidar detects that the robot is moving away from a wall, it sends a command to the *Raspberry Pi* to approach the wall.
+- Conversely, if the robot gets too close to a wall, the Lidar instructs it to move away to a safe distance.
+
+In summary, the Lidar sensor keeps the robot stable and maintains an appropriate distance from the walls, ensuring the robot's safety while navigating.
+
+## Unique Strategy to Handle Wall Expansion
+One unique aspect of our strategy is that the robot is unaffected by the expansion of the inner wall, regardless of how much it expands. This is because we use a specific approach of moving along the edges of the field, which helps us avoid any obstacles caused by the inner wall's expansion.
+
+## Line Detection and Turning Logic
+When the robot detects a *blue line, the **RPi Camera* sends the coordinates to the *Raspberry Pi*, prompting it to:
+1. Move forward.
+2. Turn 90 degrees to the left.
+3. Continue forward.
+
+This cycle repeats, allowing the robot to complete the loop effectively. During this process, the second *RPi Camera*, positioned on top, detects the color of the column on the left side.
+
+## Obstacle Navigation
+- If the RPi Camera detects a *green column, it sends a command to the **Raspberry Pi* to turn directly to the left and proceed along the left side of the green column.
+- If a *red column* is encountered, the RPi Camera instructs the *Arduino* to move forward a sufficient distance and then turn left to continue along the right side of the red column.
+
+This obstacle navigation method is repeated continuously to ensure the robot avoids all obstacles effectively.
+
+## Completing the path
+The robot will complete *three rounds*, reading all the blue lines three times, and then stop at the starting point.
+
+---
 
 # Vehicle Components
 
