@@ -23,9 +23,4 @@ The main components of the code are:
 - **Obstacle Avoidance:** Functions to detect obstacles using LIDAR and adjust the robot's path accordingly.
 - **Control Loop:** The main loop that manages LIDAR scanning, motor movement, and rotation for navigating obstacles.
 
-## Usage
 
-1. Ensure all hardware is connected properly.
-2. Run the main script using Python:
-   ```bash
-   python main.py
