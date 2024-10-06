@@ -64,16 +64,17 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ---
 
-## 2. DC Motor
+## 2. Slamtec RPLIDAR A1M8*/dc
 
-<img src="https://github.com/user-attachments/assets/786b7cfa-312f-42eb-9389-e2e87b348060" alt="DC Motor" width="115"/> 
+<img src="https://github.com/user-attachments/assets/9c29cec8-1050-4cdb-90a4-da71437b7734" alt="Slamtec RPLIDAR A1M8" width="115"/> 
 
-- **Function:** Drives the wheels of the vehicle.
-- **Operation:**
-  - Converts electrical energy into mechanical movement.
-  - Responsible for propelling the vehicle forward, ensuring smooth operation.
-- **Importance:**
-  - Essential for dynamic movement and maneuverability of the vehicle.
+- **Function:** Measures distances and identifies object positions.
+- **Uses:**
+  - Determines coordinates of surrounding objects such as walls and obstacles.
+  - Aids in navigation strategy during movement.
+- **Example Application:**
+  - When moving clockwise, it measures the distance to the left wall.
+  - If the wall is far away, the vehicle moves closer to it, utilizing it as a reference for navigation.
 
 ---
 
@@ -109,17 +110,16 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ---
 
-## 5. Slamtec RPLIDAR A1M8*/dc
+## 5. DC Motor
 
-<img src="https://github.com/user-attachments/assets/9c29cec8-1050-4cdb-90a4-da71437b7734" alt="Slamtec RPLIDAR A1M8" width="115"/> 
+<img src="https://github.com/user-attachments/assets/786b7cfa-312f-42eb-9389-e2e87b348060" alt="DC Motor" width="115"/> 
 
-- **Function:** Measures distances and identifies object positions.
-- **Uses:**
-  - Determines coordinates of surrounding objects such as walls and obstacles.
-  - Aids in navigation strategy during movement.
-- **Example Application:**
-  - When moving clockwise, it measures the distance to the left wall.
-  - If the wall is far away, the vehicle moves closer to it, utilizing it as a reference for navigation.
+- **Function:** Drives the wheels of the vehicle.
+- **Operation:**
+  - Converts electrical energy into mechanical movement.
+  - Responsible for propelling the vehicle forward, ensuring smooth operation.
+- **Importance:**
+  - Essential for dynamic movement and maneuverability of the vehicle.
 
 ---
 
@@ -170,8 +170,6 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
     - **Execution Button:** Initiates the program or code execution.
 - **Usage:**
   - Facilitates manual control over the robot's start-up and operational procedures.
-
----
 
 ---
 Our autonomous vehicle is constructed using these components, all working together seamlessly to execute the programmed navigation strategy and respond effectively to environmental changes.
