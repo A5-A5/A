@@ -21,7 +21,7 @@ When the game starts, the robot uses the *balance sensor (Gyro)* to reset and ma
 
 In summary, the Lidar sensor keeps the robot stable and maintains an appropriate distance from the walls, ensuring the robot's safety while navigating.
 
-## Unique Strategy to Handle Wall Expansion
+## Unique Strategy for the open challenge
 One unique aspect of our strategy is that the robot is unaffected by the expansion of the inner wall, regardless of how much it expands. This is because we use a specific approach of moving along the edges of the field, which helps us avoid any obstacles caused by the inner wall's expansion.
 
 ## Line Detection and Turning Logic
@@ -47,20 +47,7 @@ The robot will complete *three rounds*, reading all the blue lines three times, 
 
 Our chassis is controlled by the **Raspberry Pi 5**, which processes information from various sensors and uses that data to navigate and control the motors. The key components used in our self-driving vehicle are as follows:
 
-## 1. LiPo Battery
-
-<img src="https://github.com/user-attachments/assets/908b8404-baff-41fb-9149-9b81a1c1a1dc" alt="LiPo Battery" width="115"/> 
-
-- **Type:** 52000mAh 7.4V 2S LiPo Battery
-- **Purpose:** Provides significant power for all electrical components of the vehicle.
-- **Advantages:**
-  - High energy density for prolonged usage.
-  - Lightweight design enhances overall vehicle performance.
-  - Supports high-current draw needed for effective operation.
-
----
-
-## 2. Raspberry Pi 5
+## 1. Raspberry Pi 5/lid
 
 <img src="https://github.com/user-attachments/assets/42fb6adc-8708-4bbc-a607-6fa7e811c71d" alt="Raspberry Pi 5" width="115"/> 
 
@@ -77,7 +64,52 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ---
 
-## 3. Slamtec RPLIDAR A1M8
+## 2. DC Motor
+
+<img src="https://github.com/user-attachments/assets/786b7cfa-312f-42eb-9389-e2e87b348060" alt="DC Motor" width="115"/> 
+
+- **Function:** Drives the wheels of the vehicle.
+- **Operation:**
+  - Converts electrical energy into mechanical movement.
+  - Responsible for propelling the vehicle forward, ensuring smooth operation.
+- **Importance:**
+  - Essential for dynamic movement and maneuverability of the vehicle.
+
+---
+
+## 3. Servo Motor
+
+<img src="https://github.com/user-attachments/assets/c1670549-f9af-4a37-8fa1-179a9e9dd13b" alt="Servo Motor" width="115"/> 
+
+- **Purpose:** Controls the vehicle's steering mechanism.
+- **Input Data:**
+  - Receives data from the **Raspberry Pi 5**.
+  - Works in conjunction with inputs from **RPLIDAR** and **RPi Camera** to adjust direction based on obstacle proximity.
+
+---
+
+## 4. RPi Camera 3
+
+<img src="https://github.com/user-attachments/assets/65bd3e56-2714-4778-b2c9-bc456a161742" alt="RPi Camera 3" width="115"/> 
+
+- **Components:**
+  - Two distinct functions:
+    - **First Camera:** Captures the lines on the track.
+      - **Line Detection:** Recognizes blue and orange lines.
+      - **Movement Logic:**
+        - If the first detected line is orange, the vehicle moves clockwise.
+        - If blue, the vehicle moves counterclockwise.
+      - **Line Counting:** Tracks the number of orange and blue lines crossed, essential for strategic maneuvering during races.
+    - **Second Camera:** Detects colors of obstacles (green and red).
+      - **Decision Making:**
+        - If a green obstacle is detected, the vehicle continues in the same direction.
+        - If a red obstacle is detected, it performs a maneuver to avoid it.
+      - **Collaboration with RPLIDAR:**
+        - Works together with **RPLIDAR** to ensure obstacle detection and avoidance.
+
+---
+
+## 5. Slamtec RPLIDAR A1M8*/dc
 
 <img src="https://github.com/user-attachments/assets/9c29cec8-1050-4cdb-90a4-da71437b7734" alt="Slamtec RPLIDAR A1M8" width="115"/> 
 
@@ -91,31 +123,44 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ---
 
-## 4. Servo Motor
+## 6. Step-Down Converter
 
-<img src="https://github.com/user-attachments/assets/c1670549-f9af-4a37-8fa1-179a9e9dd13b" alt="Servo Motor" width="115"/> 
+<img src="https://github.com/user-attachments/assets/f6231631-9f1b-4582-92bc-95a66b89b68c" alt="Step-Down Converter" width="115"/> 
 
-- **Purpose:** Controls the vehicle's steering mechanism.
-- **Input Data:**
-  - Receives data from the **Raspberry Pi 5**.
-  - Works in conjunction with inputs from **RPLIDAR** and **RPi Camera** to adjust direction based on obstacle proximity.
-
----
-
-## 5. DC Motor
-
-<img src="https://github.com/user-attachments/assets/786b7cfa-312f-42eb-9389-e2e87b348060" alt="DC Motor" width="115"/> 
-
-- **Function:** Drives the wheels of the vehicle.
-- **Operation:**
-  - Converts electrical energy into mechanical movement.
-  - Responsible for propelling the vehicle forward, ensuring smooth operation.
+- **Function:** Acts as a power regulator.
+- **Voltage Adjustment:**
+  - Reduces voltage from **7.4V** to **5V** for the **Raspberry Pi**.
 - **Importance:**
-  - Essential for dynamic movement and maneuverability of the vehicle.
+  - Ensures the correct power levels are supplied to all electronic components.
+  - Improves system efficiency and reduces the risk of damage from over-voltage.
 
 ---
 
-## 6. Button
+## 7. LiPo Battery/ras
+
+<img src="https://github.com/user-attachments/assets/908b8404-baff-41fb-9149-9b81a1c1a1dc" alt="LiPo Battery" width="115"/> 
+
+- **Type:** 52000mAh 7.4V 2S LiPo Battery
+- **Purpose:** Provides significant power for all electrical components of the vehicle.
+- **Advantages:**
+  - High energy density for prolonged usage.
+  - Lightweight design enhances overall vehicle performance.
+  - Supports high-current draw needed for effective operation.
+
+---
+
+## 8. Servo Shield
+
+<img src="https://github.com/user-attachments/assets/7363483b-6689-4da0-88c1-e9cdde50f219" alt="Servo Shield" width="115"/> 
+
+- **Function:** Enhances control over the **Servo Motor**.
+- **Benefits:**
+  - Provides additional power management for servo operations.
+  - Simplifies connections and control logic for steering mechanisms.
+
+---
+
+## 9. Button
 
 <img src="https://github.com/user-attachments/assets/65c64ba1-5371-4502-a137-03b5c4c18d32" alt="Button" width="115"/> 
 
@@ -127,50 +172,6 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
   - Facilitates manual control over the robot's start-up and operational procedures.
 
 ---
-
-## 7. Servo Shield
-
-<img src="https://github.com/user-attachments/assets/7363483b-6689-4da0-88c1-e9cdde50f219" alt="Servo Shield" width="115"/> 
-
-- **Function:** Enhances control over the **Servo Motor**.
-- **Benefits:**
-  - Provides additional power management for servo operations.
-  - Simplifies connections and control logic for steering mechanisms.
-
----
-
-## 8. RPi Camera 3
-
-<img src="https://github.com/user-attachments/assets/65bd3e56-2714-4778-b2c9-bc456a161742" alt="RPi Camera 3" width="115"/> 
-
-- **Components:**
-- Two distinct functions:
-- **First Camera:** Captures the lines on the track.
-    - **Line Detection:** Recognizes blue and orange lines.
-    - **Movement Logic:**
-              - If the first detected line is orange, the vehicle moves clockwise.
-              - If blue, the vehicle moves counterclockwise.
-    - **Line Counting:** Tracks the number of orange and blue lines crossed, essential for strategic maneuvering during races.
-      
-- **Second Camera:** Detects colors of obstacles (green and red).
-    - **Decision Making:**
-              - If a green obstacle is detected, the vehicle continues in the same direction.
-              - If a red obstacle is detected, it performs a maneuver to avoid it.
-    - **Collaboration with RPLIDAR:**
-              - Works together with **RPLIDAR** to ensure obstacle detection and avoidance.
-
----
-
-## 9. Step-Down Converter
-
-<img src="https://github.com/user-attachments/assets/f6231631-9f1b-4582-92bc-95a66b89b68c" alt="Step-Down Converter" width="115"/> 
-
-- **Function:** Acts as a power regulator.
-- **Voltage Adjustment:**
-  - Reduces voltage from **7.4V** to **5V** for the **Raspberry Pi**.
-- **Importance:**
-  - Ensures the correct power levels are supplied to all electronic components.
-  - Improves system efficiency and reduces the risk of damage from over-voltage.
 
 ---
 Our autonomous vehicle is constructed using these components, all working together seamlessly to execute the programmed navigation strategy and respond effectively to environmental changes.
