@@ -114,19 +114,20 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 <img src="https://github.com/user-attachments/assets/65bd3e56-2714-4778-b2c9-bc456a161742" alt="RPi Camera 3" width="115"/> 
 
 - **Components:**
-  - Two distinct functions:
-    - **First Camera:** Captures the lines on the track.
-      - **Line Detection:** Recognizes blue and orange lines.
-      - **Movement Logic:**
-        - If the first detected line is orange, the vehicle moves clockwise.
-        - If blue, the vehicle moves counterclockwise.
-      - **Line Counting:** Tracks the number of orange and blue lines crossed, essential for strategic maneuvering during races.
-    - **Second Camera:** Detects colors of obstacles (green and red).
-      - **Decision Making:**
-        - If a green obstacle is detected, the vehicle continues in the same direction.
-        - If a red obstacle is detected, it performs a maneuver to avoid it.
-- **Collaboration with RPLIDAR:**
-  - Works together with **RPLIDAR** to ensure obstacle detection and avoidance.
+- Two distinct functions:
+- **First Camera:** Captures the lines on the track.
+    - **Line Detection:** Recognizes blue and orange lines.
+    - **Movement Logic:**
+              - If the first detected line is orange, the vehicle moves clockwise.
+              - If blue, the vehicle moves counterclockwise.
+    - **Line Counting:** Tracks the number of orange and blue lines crossed, essential for strategic maneuvering during races.
+      
+- **Second Camera:** Detects colors of obstacles (green and red).
+    - **Decision Making:**
+              - If a green obstacle is detected, the vehicle continues in the same direction.
+              - If a red obstacle is detected, it performs a maneuver to avoid it.
+    - **Collaboration with RPLIDAR:**
+              - Works together with **RPLIDAR** to ensure obstacle detection and avoidance.
 
 ---
 
