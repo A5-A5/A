@@ -11,7 +11,7 @@ a passionate team of high school students, including **AlJawharah AlQahtani** an
 Our mission is to build a solid foundation of knowledge that prepares us to drive technological advancements and inspire future generations.
 
 ---
-# Robot Strategy in Game Field
+# Let's explain our robot Strategy in Game Field 
 
 ## Balance and Navigation Control
 When the game starts, the robot uses the *balance sensor (Gyro)* to reset and maintain its balance while moving forward or turning right or left. The *RP Lidar*, installed at the front of the robot, helps prevent collisions with walls or columns.
