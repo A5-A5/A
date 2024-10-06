@@ -14,7 +14,7 @@ Our mission is to build a solid foundation of knowledge that prepares us to driv
 # Let's explain our robot Strategy in Game Field 
 
 ## Balance and Navigation Control
-When the game starts, the robot uses the *balance sensor (Gyro)* to reset and maintain its balance while moving forward or turning right or left. The *RP Lidar*, installed at the front of the robot, helps prevent collisions with walls or columns.
+When the game starts, the robot uses the *balance sensor (**Gyro**)* to reset and maintain its balance while moving forward or turning right or left. The **RPLIDAR**, installed at the front of the robot, helps prevent collisions with walls or columns.
 
 - If the Lidar detects that the robot is moving away from a wall, it sends a command to the *Raspberry Pi* to approach the wall.
 - Conversely, if the robot gets too close to a wall, the Lidar instructs it to move away to a safe distance.
@@ -64,7 +64,7 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ---
 
-## 2. Slamtec RPLIDAR A1M8*/dc
+## 2. Slamtec RPLIDAR A1M8
 
 <img src="https://github.com/user-attachments/assets/9c29cec8-1050-4cdb-90a4-da71437b7734" alt="Slamtec RPLIDAR A1M8" width="115"/> 
 
