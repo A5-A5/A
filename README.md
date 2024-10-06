@@ -145,12 +145,5 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 ---
 Our autonomous vehicle is constructed using these components, all working together seamlessly to execute the programmed navigation strategy and respond effectively to environmental changes.
 
----
 
-## Installation
-```bash
-# Clone the repository
-git clone https://github.com/blo0ck/Block.git
 
-# Install dependencies
-pip install -r requirements.txt
