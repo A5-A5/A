@@ -77,7 +77,7 @@ The strategy for the robot, from start to completing a full lap while avoiding o
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/RayBot-2030/WRO-2024-RayBot.git
+git clone https://github.com/blo0ck/Block.git
 
 # Install dependencies
 pip install -r requirements.txt
