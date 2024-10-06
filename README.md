@@ -78,14 +78,16 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ---
 
-## 3. Servo Motor
+## 3.  DC Motor
 
-<img src="https://github.com/user-attachments/assets/c1670549-f9af-4a37-8fa1-179a9e9dd13b" alt="Servo Motor" width="115"/> 
+<img src="https://github.com/user-attachments/assets/786b7cfa-312f-42eb-9389-e2e87b348060" alt="DC Motor" width="115"/> 
 
-- **Purpose:** Controls the vehicle's steering mechanism.
-- **Input Data:**
-  - Receives data from the **Raspberry Pi 5**.
-  - Works in conjunction with inputs from **RPLIDAR** and **RPi Camera** to adjust direction based on obstacle proximity.
+- **Function:** Drives the wheels of the vehicle.
+- **Operation:**
+  - Converts electrical energy into mechanical movement.
+  - Responsible for propelling the vehicle forward, ensuring smooth operation.
+- **Importance:**
+  - Essential for dynamic movement and maneuverability of the vehicle.
 
 ---
 
@@ -109,17 +111,38 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
         - Works together with **RPLIDAR** to ensure obstacle detection and avoidance.
 
 ---
+## 5. Raspberry Pi Camera Module 3 Holder
+<img src="https://github.com/user-attachments/assets/0410725c-0438-4008-9939-fa46486edb69" alt="RPi Camera 3 Holder" width="360"/>
 
-## 5. DC Motor
+- **Design:** Created using Fusion 360 and printed with a 3D printer.
+- **Purpose:** Ensures stable camera positioning to minimize vibration during movement.
+- **Features:** Adjustable angles and lightweight PLA plastic material for minimal added weight.
 
-<img src="https://github.com/user-attachments/assets/786b7cfa-312f-42eb-9389-e2e87b348060" alt="DC Motor" width="115"/> 
+---
+## Side Wheel Assembly for Robot
 
-- **Function:** Drives the wheels of the vehicle.
-- **Operation:**
-  - Converts electrical energy into mechanical movement.
-  - Responsible for propelling the vehicle forward, ensuring smooth operation.
-- **Importance:**
-  - Essential for dynamic movement and maneuverability of the vehicle.
+<img src="https://github.com/user-attachments/assets/82a93574-2dc3-4eb9-9c3b-992f1201b166" alt="RPi Camera 3 Holder" width="220"/>
+
+### Design Overview:
+This component was designed to enhance the robot's navigation capabilities by preventing it from getting stuck against walls. The side wheel assembly allows the robot to continue moving smoothly along walls without interruption.
+
+### Features:
+- **Purpose**: Facilitates smooth movement along walls, ensuring the robot can navigate obstacles effectively.
+- **Design**: Custom-designed based on thorough research and analysis of movement issues encountered during initial tests.
+- **Wheel Mechanism**: The black wheel allows the robot to glide past obstacles, minimizing friction and resistance.
+
+For more 3D model details, visit the [Models](https://github.com/blo0ck/Block/tree/main/models) file on our GitHub page.
+
+---
+
+## 5.  Servo Motor
+
+<img src="https://github.com/user-attachments/assets/c1670549-f9af-4a37-8fa1-179a9e9dd13b" alt="Servo Motor" width="115"/> 
+
+- **Purpose:** Controls the vehicle's steering mechanism.
+- **Input Data:**
+  - Receives data from the **Raspberry Pi 5**.
+  - Works in conjunction with inputs from **RPLIDAR** and **RPi Camera** to adjust direction based on obstacle proximity.
 
 ---
 
