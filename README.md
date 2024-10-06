@@ -26,7 +26,7 @@ The **Raspberry Pi 5** is the core component of our vehicle, equipped with **4GB
 
 
 ### 3. Slamtec RPLIDAR A1M8
-![Slamtec RPLIDAR A1M8](https://github.com/user-attachments/assets/733fbc9b-d4b4-4c74-9c21-c21d30e1321c)
+![Slamtec RPLIDAR A1M8](https://github.com/user-attachments/assets/9c29cec8-1050-4cdb-90a4-da71437b7734)
 
 The **Slamtec RPLIDAR A1M8** is a laser sensor that accurately measures distances, helping our vehicle map its surrounding environment and detect obstacles. We have calibrated the LIDAR to ensure it effectively identifies obstacles up to **10 cm** in height, which is crucial for proper vehicle navigation and obstacle avoidance.
 
