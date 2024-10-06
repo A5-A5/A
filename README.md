@@ -134,6 +134,15 @@ This component was designed to enhance the robot's navigation capabilities by pr
 For more 3D model details, visit the [Models](https://github.com/blo0ck/Block/tree/main/models) file on our GitHub page.
 
 ---
+## Program Information
+
+All programming details for our autonomous robot can be found in the `src` folder, which contains the following files:
+
+- **Code1.py**
+- **Code2-Update.py**
+- **Code3-Final.py**
+
+For more information, please explore the files in the [src](https://github.com/blo0ck/Block/tree/main/src) folder on our GitHub page.
 
 ## 5.  Servo Motor
 
