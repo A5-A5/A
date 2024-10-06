@@ -47,7 +47,7 @@ The robot will complete *three rounds*, reading all the blue lines three times, 
 
 Our chassis is controlled by the **Raspberry Pi 5**, which processes information from various sensors and uses that data to navigate and control the motors. The key components used in our self-driving vehicle are as follows:
 
-## 1. Raspberry Pi 5/lid
+## 1. Raspberry Pi 5
 
 <img src="https://github.com/user-attachments/assets/42fb6adc-8708-4bbc-a607-6fa7e811c71d" alt="Raspberry Pi 5" width="115"/> 
 
@@ -88,7 +88,7 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ---
 
-## 4. RPi Camera 3
+## 4. RPi Camera Module 3
 
 <img src="https://github.com/user-attachments/assets/65bd3e56-2714-4778-b2c9-bc456a161742" alt="RPi Camera 3" width="115"/> 
 
