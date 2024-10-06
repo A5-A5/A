@@ -1,7 +1,6 @@
 # Hi there, we are the RayBot2030 team!
 a passionate team of high school students, including **AlJawharah AlQahtani** and **Aseel AlJaseer**, committed to advancing the field of autonomous vehicle technology. Our participation in the **WRO Future Engineers** challenge allows us to pursue ambitious goals while fostering innovation and teamwork.
 
-We are incredibly grateful to our coach, **Elaf Abunayyan**, whose guidance and support inspire us to reach our full potential. Her expertise and encouragement empower us to tackle challenges with confidence and creativity.
 
 ## Our Objectives:
 - **Understand the mechanics of autonomous vehicles**, including sensing technologies and control systems.
