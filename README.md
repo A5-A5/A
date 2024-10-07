@@ -33,7 +33,7 @@ When the robot detects a *blue line, the **RPi Camera* sends the coordinates to 
 This cycle repeats, allowing the robot to complete the loop effectively. During this process, the second *RPi Camera*, positioned on top, detects the color of the column on the left side.
 
 ## Obstacle Navigation
-- If the RPi Camera detects a *green column, it sends a command to the **Raspberry Pi* to turn directly to the left and proceed along the left side of the green column.
+- If the RPi Camera detects a green column, it sends a command to the *Raspberry Pi* to turn directly to the left and proceed along the left side of the green column.
 - If a *red column* is encountered, the RPi Camera instructs the *Arduino* to move forward a sufficient distance and then turn left to continue along the right side of the red column.
 
 This obstacle navigation method is repeated continuously to ensure the robot avoids all obstacles effectively.
@@ -93,22 +93,23 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ## 4. RPi Camera Module 3
 
-<img src="https://github.com/user-attachments/assets/65bd3e56-2714-4778-b2c9-bc456a161742" alt="RPi Camera 3" width="115"/> 
+![RPi Camera 3](https://github.com/user-attachments/assets/65bd3e56-2714-4778-b2c9-bc456a161742)
 
-- **Components:**
-- Two distinct functions:
-  - **First Camera:** Captures the lines on the track.
-      - **Line Detection:** Recognizes blue and orange lines.
-      - **Movement Logic:**
-          - If the first detected line is orange, the vehicle moves clockwise.
-          - If blue, the vehicle moves counterclockwise.
-      - **Line Counting:** Tracks the number of orange and blue lines crossed, essential for strategic maneuvering during races.
-  - **Second Camera:** Detects colors of obstacles (green and red).
-      - **Decision Making:**
-          - If a green obstacle is detected, the vehicle continues in the same direction.
-          - If a red obstacle is detected, it performs a maneuver to avoid it.
-      - **Collaboration with RPLIDAR:**
-          - Works together with **RPLIDAR** to ensure obstacle detection and avoidance.
+## Components
+
+The single camera module performs two distinct functions:
+
+### First Function: Line Detection
+- **Line Detection:** Recognizes blue and orange lines.
+- **Movement Logic:**
+  - If the first detected line is orange, the vehicle moves clockwise.
+  - If blue, the vehicle moves counterclockwise.
+- **Line Counting:** Tracks the number of orange and blue lines crossed, essential for strategic maneuvering during races.
+
+### Second Function: Obstacle Detection
+- **Color Detection:** Detects colors of obstacles (green and red).
+- **Collaboration with RPLIDAR:**
+  - Works together with **RPLIDAR** to ensure obstacle detection and avoidance.
 
 ---
 ## 5. Raspberry Pi Camera Module 3 Holder
