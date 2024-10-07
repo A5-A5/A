@@ -93,7 +93,7 @@ Our chassis is controlled by the **Raspberry Pi 5**, which processes information
 
 ## 4. RPi Camera Module 3
 
-![RPi Camera 3](https://github.com/user-attachments/assets/65bd3e56-2714-4778-b2c9-bc456a161742)
+<img src="https://github.com/user-attachments/assets/65bd3e56-2714-4778-b2c9-bc456a161742" alt="Step-Down Converter" width="115"/> 
 
 ## Components
 
@@ -120,7 +120,7 @@ The single camera module performs two distinct functions:
 - **Features:** Adjustable angles and lightweight PLA plastic material for minimal added weight.
 
 ---
-## Side Wheel Assembly for Robot
+## 6. Side Wheel Assembly for Robot
 
 <img src="https://github.com/user-attachments/assets/82a93574-2dc3-4eb9-9c3b-992f1201b166" alt="RPi Camera 3 Holder" width="220"/>
 
@@ -135,7 +135,7 @@ This component was designed to enhance the robot's navigation capabilities by pr
 For more 3D model details, visit the [Models](https://github.com/blo0ck/Block/tree/main/models) file on our GitHub page.
 
 ---
-## Program Information
+## 7. Program Information
 
 All programming details for our robot can be found in the `src` folder, which contains the following files:
 
@@ -147,7 +147,7 @@ For more information, please explore the files in the [src](https://github.com/b
 
 ---
 
-## 5.  Servo Motor
+## 8.  Servo Motor
 
 <img src="https://github.com/user-attachments/assets/c1670549-f9af-4a37-8fa1-179a9e9dd13b" alt="Servo Motor" width="115"/> 
 
@@ -158,7 +158,7 @@ For more information, please explore the files in the [src](https://github.com/b
 
 ---
 
-## 6. Step-Down Converter
+## 9. Step-Down Converter
 
 <img src="https://github.com/user-attachments/assets/f6231631-9f1b-4582-92bc-95a66b89b68c" alt="Step-Down Converter" width="115"/> 
 
@@ -171,7 +171,7 @@ For more information, please explore the files in the [src](https://github.com/b
 
 ---
 
-## 7. LiPo Battery/ras
+## 10. LiPo Battery/ras
 
 <img src="https://github.com/user-attachments/assets/908b8404-baff-41fb-9149-9b81a1c1a1dc" alt="LiPo Battery" width="115"/> 
 
@@ -184,7 +184,7 @@ For more information, please explore the files in the [src](https://github.com/b
 
 ---
 
-## 8. Servo Shield
+## 11. Servo Shield
 
 <img src="https://github.com/user-attachments/assets/7363483b-6689-4da0-88c1-e9cdde50f219" alt="Servo Shield" width="115"/> 
 
@@ -195,7 +195,7 @@ For more information, please explore the files in the [src](https://github.com/b
 
 ---
 
-## 9. Button
+## 12. Button
 
 <img src="https://github.com/user-attachments/assets/65c64ba1-5371-4502-a137-03b5c4c18d32" alt="Button" width="115"/> 
 
