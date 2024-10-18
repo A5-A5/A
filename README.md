@@ -34,7 +34,7 @@ This cycle repeats, allowing the robot to complete the loop effectively. During 
 
 ## Obstacle Navigation
 - If the RPi Camera detects a green column, it sends a command to the *Raspberry Pi* to turn directly to the left and proceed along the left side of the green column.
-- If a *red column* is encountered, the RPi Camera instructs the *Arduino* to move forward a sufficient distance and then turn left to continue along the right side of the red column.
+- If a *red column* is encountered, the RPi Camera instructs the *Rasberry Pi* to move forward a sufficient distance and then turn left to continue along the right side of the red column.
 
 This obstacle navigation method is repeated continuously to ensure the robot avoids all obstacles effectively.
 
